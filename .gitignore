@@ -1,0 +1,46 @@
+# Credentials
+.env
+**/.env
+.env.bak
+**/.env.bak
+.env.mag
+**/.env.mag
+
+# Саммари и временные отчёты
+IMPLEMENTATION_SUMMARY*.md
+**/IMPLEMENTATION_SUMMARY*.md
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Данные
+bak/*.csv
+mag/*.csv
+*.csv
+**/*.csv
+*.xlsx
+**/*.xlsx
+*.xls
+**/*.xls
+
+# Airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+airflow/dags/__pycache__/
+
+# Прочее
+.DS_Store
+Архив.zip
+airflow/db/*.db
+data/mag/*.xlsx
+data/mag/*.xls
+data/mag/*.csv
+data/bak/*.xlsx
+data/bak/*.xls
+data/bak/*.csv
+.claude/
